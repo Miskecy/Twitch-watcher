@@ -29,7 +29,7 @@ const streamerListRefreshUnit = (process.env.streamerListRefreshUnit || 'hour');
 const channelsWithPriority = process.env.channelsWithPriority ? process.env.channelsWithPriority.split(",") : [];
 const watchAlwaysTopStreamer = (process.env.watchAlwaysTopStreamer || false);
 
-const showBrowser = true; // false state equ headless mode;
+const showBrowser = false; // false state equ headless mode;
 const proxy = (process.env.proxy || ""); // "ip:port" By https://github.com/Jan710
 const proxyAuth = (process.env.proxyAuth || "");
 
